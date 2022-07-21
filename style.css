@@ -1,0 +1,494 @@
+/*-------------- Header Style Starts------------- */
+.First-banner {
+    display: grid;
+    justify-content: center;
+}
+
+.first-banner-items {
+    width: 1321px;
+    height: 653px;
+    background-color: #161616;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Heading-title {
+    width: 531px;
+    height: 427.99px;
+    margin-left: 20px;
+}
+
+.First-banner-heading {
+
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    font-family: 'Poppins';
+    color: white;
+    margin-bottom: 20px;
+
+}
+
+.heading-info {
+    color: white;
+    width: 506px;
+    height: 78.85px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Poppins';
+
+}
+
+.First-banner img {
+    width: 581px;
+    height: 619.64px;
+    padding: 6px;
+    margin-top: 30px;
+}
+
+.Header-button {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    padding: 16px 25px;
+    width: 187px;
+    height: 56px;
+    background: #DD0000;
+    border-radius: 5px;
+    transition: ease-out 0.5s;
+    box-shadow: inset 0 0 0 0 #f9e506;
+    outline: none;
+}
+
+.Header-button:hover {
+    box-shadow: inset 187px 0 0 0 #f9e506;
+    cursor: pointer;
+    color: #161616;
+    font-size: 1.5rem;
+}
+
+
+
+/* ---------------Header Style Ends------------- */
+
+
+
+/*-------------- Main Styles Stars---------------- */
+.container {
+    display: grid;
+    justify-content: center;
+}
+
+.Blogs-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 1321px;
+    /* margin-left: 450px; */
+    margin-top: 20px;
+
+}
+
+/* ------Blogs-Box Style Starts------- */
+
+.Box {
+    width: 312px;
+    height: 312px;
+    background: #161616;
+    border-radius: 10px;
+}
+
+.Box-Buttons {
+    display: grid;
+    padding: 30px;
+    align-items: center;
+
+}
+
+.Same-button,
+.Different-button {
+    padding: 10px 30px;
+    background-color: white;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-size: 20px;
+    margin-top: 30px;
+
+}
+
+.Different-button {
+    background-color: red;
+    color: white;
+
+}
+
+.Box-Buttons a {
+    text-decoration: none;
+    color: #161616;
+}
+
+/* ------Blogs-Box Style End---------- */
+/* ------All blogs Styles Starts------- */
+main {
+    position: static;
+}
+
+.blogs-all {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.Blogs {
+    width: 312px;
+    height: 362px;
+    border-radius: 11px;
+    border: 1px solid gray;
+
+
+}
+
+.Blogs-banner {
+    width: 312px;
+    height: 175px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.Blogs-info {
+    padding: 20px;
+}
+
+.Blogs-info Button {
+    width: 100px;
+    height: 32px;
+    background-color: white;
+    border-radius: 5px;
+    font-family: "Poppins";
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.Blog-title {
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: #161616;
+    margin: 0;
+    padding: 0;
+}
+
+.Blogs-duration {
+    display: flex;
+    margin-top: 30px;
+}
+
+.Chat-icon {
+    margin-left: 30px;
+}
+
+.Time-icon,
+.Chat-icon {
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+
+/* ------All blogs Styles end------- */
+/* -------Matches Style Stars--------- */
+.Tournaments {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.matches {
+    width: 312px;
+    height: 242px;
+    border: 2px solid #E8E8E8;
+    /* margin: 30px; */
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+
+.flag-image {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.image-1 {
+    margin-right: 15px;
+}
+
+.image-2 {
+    margin-left: 15px;
+}
+
+.flag-image h3 {
+    font-size: 20px;
+}
+
+.match-details {
+    font-family: "Poppins";
+    font-size: 15px;
+    margin-top: -40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.match-details p {
+    color: #4D4D4D;
+}
+
+/* -------Matches Style end--------- */
+/* ========Main Styles End===========*/
+
+
+/*=====Footer Style starts====== */
+.Last-footer {
+    width: 100%;
+    height: 100%;
+    margin-top: 130px;
+    background-color: #161616;
+    color: #FFFFFF;
+    text-align: center;
+
+
+}
+
+.footer-sector {
+    margin-top: 80px;
+
+}
+
+.footer-heading {
+    padding-top: 80px;
+    font-size: 30px;
+    font-weight: 600;
+
+
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* width: 1350px; */
+}
+
+.footer-terms {
+    display: grid;
+    justify-content: center;
+}
+
+.Term-list {
+    display: flex;
+
+}
+
+.Term-list li {
+    padding-left: 30px;
+    list-style-type: none;
+}
+
+.footer-icons {
+    margin-top: 40px;
+    font-size: 30px;
+    padding-bottom: 100px;
+}
+
+.footer-icons i {
+    margin-left: 40px;
+}
+
+/*=====Footer Style end====== */
+
+/*----For Mobile responsivness------ */
+
+@media only screen and (max-width:688px) {
+    .First-banner {
+        display: block;
+        margin: 5px 10px;
+    }
+
+    .first-banner-items {
+        display: grid;
+        width: 100%;
+        align-items: end;
+        justify-content: center;
+    }
+
+    .Heading-title {
+        padding: 0;
+        text-align: center;
+        margin: 0 25px;
+    }
+
+
+
+    .Heading-title h1 {
+
+        font-size: 22px;
+
+    }
+
+    .Heading-title p {
+
+        font-size: 14px;
+        width: 450px;
+        margin-left: 30px;
+
+    }
+
+    .Header-button {
+        margin-left: 170px;
+    }
+
+    .first-banner-items-image {
+        width: 233px;
+        height: 245px;
+        margin-bottom: -50px;
+        margin-left: 50px;
+    }
+
+    .first-banner-items-image img {
+        width: 233px;
+        height: 245px;
+        margin-left: 130px;
+        margin-top: -57px;
+    }
+
+    .Blogs-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    /* .Blog-Box {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+
+    .Box {
+        background-color: #FFFFFF;
+        margin-left: 10px;
+    }
+
+    .Box-Buttons {
+        padding-top: 30px;
+        padding-left: 55px;
+    } */
+
+
+    .blogs-all {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 25px;
+        margin-left: 15px;
+    }
+
+    .footer-terms {
+        margin-left: -60px;
+    }
+
+    .Term-list {
+        display: grid;
+        font-size: 28px;
+    }
+
+    .Term-list li {
+        color: #B9B9B9;
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 40px;
+    }
+}
+
+/*----------- For Tablet Responsiveness------------ */
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+
+    .First-banner {
+        display: block;
+        margin: 5px 10px;
+    }
+
+    .Heading-title {
+        padding: 0;
+        height: 276px;
+        margin-left: 70px;
+        margin-bottom: 70px;
+        text-align: left;
+
+    }
+
+    .first-banner-items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        height: 400px;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .Heading-title .First-banner-heading {
+
+        font-size: 30px;
+        line-height: 40px;
+
+    }
+
+    .Heading-title .heading-info {
+
+        font-size: 14px;
+
+    }
+
+    .Heading-title .Header-button {
+        width: 161px;
+        height: 46px;
+    }
+
+    .first-banner-items img {
+        width: 320px;
+        height: 340px;
+        margin-bottom: -3px;
+        margin-left: 10px;
+    }
+
+    .Blog-Box {
+        display: block;
+        width: auto;
+        margin-top: 30px;
+
+    }
+
+    .Box {
+        display: block;
+        height: auto;
+        margin-left: 30px;
+        background-color: #FFFFFF;
+
+    }
+
+    .Box-Buttons {
+        display: flex;
+        padding: 30px;
+
+    }
+
+    .Box-Buttons button {
+        border-radius: 10px;
+        margin-left: 3px;
+    }
+
+
+}
