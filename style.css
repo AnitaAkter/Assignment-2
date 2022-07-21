@@ -182,7 +182,7 @@ main {
 
 .Blogs-duration {
     display: flex;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .Chat-icon {
@@ -365,13 +365,25 @@ hr {
         margin-top: -57px;
     }
 
+    .container {
+        display: block;
+    }
+
     .Blogs-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-
+        justify-content: center;
     }
 
-    /* .Blog-Box {
+    .blogs-all {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 25px;
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+
+    .Blog-Box {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         justify-content: center;
@@ -385,15 +397,8 @@ hr {
     .Box-Buttons {
         padding-top: 30px;
         padding-left: 55px;
-    } */
-
-
-    .blogs-all {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        row-gap: 25px;
-        margin-left: 15px;
     }
+
 
     .footer-terms {
         margin-left: -60px;
